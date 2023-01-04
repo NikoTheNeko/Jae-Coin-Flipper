@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skybox
+  m_Shader: {fileID: 4800000, guid: e32cae2a5bbfb41888ef2ba8391ababa, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 6230641833549649037}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DirectionPitch: 0
+    - _DirectionYaw: 0
+    - _DstBlend: 0
+    - _Exponent: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+--- !u!28 &6230641833549649037
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: z__GradientTex{"mode":0,"colorKeys":[{"color":{"r":0.48235294222831728,"g":0.9411764740943909,"b":0.9647058844566345,"a":1.0},"time":0.0},{"color":{"r":0.6528123617172241,"g":0.8127151131629944,"b":0.849056601524353,"a":1.0},"time":0.09706263989210129},{"color":{"r":0.18549886345863343,"g":0.26552021503448489,"b":0.35870689153671267,"a":1.0},"time":0.31177234649658205},{"color":{"r":0.040094345808029178,"g":0.06147799640893936,"b":0.1603773832321167,"a":1.0},"time":0.45000380277633669},{"color":{"r":0.051827069371938708,"g":0.033018872141838077,"b":0.1320754885673523,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.0},{"alpha":1.0,"time":1.0}]}
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: fb6604470c3ca9f429e32c890c9785d5
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 1024
+  m_Height: 1
+  m_CompleteImageSize: 4096
+  m_MipsStripped: 0
+  m_TextureFormat: 5
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_LightmapFormat: 0
+  m_ColorSpace: 1
+  m_PlatformBlob: 
+  image data: 4096
+  _typelessdata: ff7bf0f6ff7bf0f6ff7ceff5ff7ceff5ff7deff5ff7deef5ff7eeef4ff7eeef4ff7fedf4ff7fedf3ff7fedf3ff80ecf3ff80ecf2ff81ecf2ff81ebf2ff82ebf2ff82ebf1ff82eaf1ff83eaf1ff83eaf0ff84e9f0ff84e9f0ff85e9efff85e8efff86e8efff86e8efff86e7eeff87e7eeff87e7eeff88e6edff88e6edff89e6edff89e5ecff89e5ecff8ae5ecff8ae4ecff8be4ebff8be4ebff8ce3ebff8ce3eaff8de3eaff8de2eaff8de2eaff8ee2e9ff8ee1e9ff8fe1e9ff8fe1e8ff90e0e8ff90e0e8ff90e0e7ff91e0e7ff91dfe7ff92dfe7ff92dfe6ff93dee6ff93dee6ff94dee5ff94dde5ff94dde5ff95dde4ff95dce4ff96dce4ff96dce4ff97dbe3ff97dbe3ff97dbe3ff98dae2ff98dae2ff99dae2ff99d9e2ff9ad9e1ff9ad9e1ff9bd8e1ff9bd8e0ff9bd8e0ff9cd7e0ff9cd7dfff9dd7dfff9dd6dfff9ed6dfff9ed6deff9ed5deff9fd5deff9fd5ddffa0d4ddffa0d4ddffa1d4dcffa1d3dcffa2d3dcffa2d3dcffa2d2dbffa3d2dbffa3d2dbffa4d1daffa4d1daffa5d1daffa5d0d9ffa5d0d9ffa6d0d9ffa6cfd9ffa6cfd8ffa6ced8ffa5ced7ffa4cdd6ffa4ccd6ffa3ccd5ffa3cbd5ffa2cad4ffa2cad4ffa1c9d3ffa1c8d2ffa0c8d2ffa0c7d1ff9fc7d1ff9ec6d0ff9ec5d0ff9dc5cfff9dc4ceff9cc3ceff9cc3cdff9bc2cdff9bc1ccff9ac1ccff9ac0cbff99c0caff99bfcaff98bec9ff97bec9ff97bdc8ff96bcc8ff96bcc7ff95bbc6ff95bac6ff94bac5ff94b9c5ff93b9c4ff93b8c4ff92b7c3ff91b7c2ff91b6c2ff90b5c1ff90b5c1ff8fb4c0ff8fb3c0ff8eb3bfff8eb2beff8db2beff8db1bdff8cb0bdff8cb0bcff8bafbcff8aaebbff8aaebbff89adbaff89acb9ff88acb9ff88abb8ff87abb8ff87aab7ff86a9b7ff86a9b6ff85a8b5ff84a7b5ff84a7b4ff83a6b4ff83a6b3ff82a5b3ff82a4b2ff81a4b1ff81a3b1ff80a2b0ff80a2b0ff7fa1afff7ea0afff7ea0aeff7d9fadff7d9fadff7c9eacff7c9dacff7b9dabff7b9cabff7a9baaff7a9ba9ff799aa9ff7999a8ff7899a8ff7798a7ff7798a7ff7697a6ff7696a5ff7596a5ff7595a4ff7494a4ff7494a3ff7393a3ff7392a2ff7292a1ff7191a1ff7191a0ff7090a0ff708f9fff6f8f9fff6f8e9eff6e8d9dff6e8d9dff6d8c9cff6d8b9cff6c8b9bff6b8a9bff6b8a9aff6a8999ff6a8899ff698898ff698798ff688697ff688697ff678596ff678496ff668495ff668394ff658394ff648293ff648193ff638192ff638092ff627f91ff627f90ff617e90ff617d8fff607d8fff607c8eff5f7c8eff5e7b8dff5e7a8cff5d7a8cff5d798bff5c788bff5c788aff5b778aff5b7689ff5a7688ff5a7588ff597587ff597487ff587386ff577386ff577285ff567184ff567184ff557083ff557083ff546f82ff546e82ff536e81ff536d80ff526c80ff516c7fff516b7fff506a7eff506a7eff4f697dff4f697cff4e687cff4e677bff4d677bff4d667aff4c657aff4b6579ff4b6478ff4a6378ff4a6377ff496277ff496276ff486176ff486075ff476074ff475f74ff465e73ff465e73ff455d72ff445c72ff445c71ff435b71ff435b70ff425a6fff42596fff41596eff41586eff40576dff40576dff3f566cff3e556bff3e556bff3d546aff3d546aff3c5369ff3c5269ff3b5268ff3b5167ff3a5067ff3a5066ff394f66ff384e65ff384e65ff374d64ff374d63ff364c63ff364b62ff354b62ff354a61ff344961ff344960ff33485fff33475fff32475eff31465eff31465dff30455dff30445cff2f445bff2f435bff2f435bff2f435aff2e425aff2e425aff2e4159ff2d4159ff2d4159ff2d4058ff2d4058ff2c4058ff2c3f57ff2c3f57ff2c3f56ff2b3e56ff2b3e56ff2b3d55ff2b3d55ff2a3d55ff2a3c54ff2a3c54ff2a3c54ff293b53ff293b53ff293a53ff283a52ff283a52ff283951ff283951ff273951ff273850ff273850ff273850ff26374fff26374fff26364fff26364eff25364eff25354eff25354dff25354dff24344cff24344cff24334cff23334bff23334bff23324bff23324aff22324aff22314aff223149ff223149ff213048ff213048ff212f48ff212f47ff202f47ff202e47ff202e46ff202e46ff1f2d46ff1f2d45ff1f2d45ff1f2c45ff1e2c44ff1e2b44ff1e2b43ff1d2b43ff1d2a43ff1d2a42ff1d2a42ff1c2942ff1c2941ff1c2841ff1c2841ff1b2840ff1b2740ff1b2740ff1b273fff1a263fff1a263eff1a263eff1a253eff19253dff19243dff19243dff18243cff18233cff18233cff18233bff17223bff17223bff17213aff17213aff162139ff162039ff162039ff162038ff151f38ff151f38ff151f37ff151e37ff141e37ff141d36ff141d36ff131d36ff131c35ff131c35ff131c34ff121b34ff121b34ff121a33ff121a33ff111a33ff111932ff111932ff111932ff101831ff101831ff101831ff101730ff0f1730ff0f162fff0f162fff0f162fff0e152eff0e152eff0e152eff0d142dff0d142dff0d132dff0d132cff0c132cff0c122cff0c122bff0c122bff0b112aff0b112aff0b112aff0b1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a1029ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f29ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0a0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0f28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e28ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0e27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d27ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0b0d26ff0c0d26ff0c0d26ff0c0d26ff0c0d26ff0c0d26ff0c0d26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c26ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0c25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b25ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0b24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a24ff0c0a23ff0c0a23ff0c0a23ff0c0a23ff0c0a23ff0c0a23ff0c0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0a23ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0923ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0922ff0d0822ff0d0822ff0d0822ff0d0822ff0d0822ff0d0822ff0d0822
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
