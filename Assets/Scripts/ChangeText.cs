@@ -40,7 +40,7 @@ public class ChangeText : MonoBehaviour{
             //Flips a coin, then changes the text
             if(FlipACoin() == 0){
                 ResultsText.text = "Heads";
-                CoinAnimations.SetInteger("CoinValue", 1);
+                CoinAnimations.SetInteger("CoinValue", 0);
             } else {
                 ResultsText.text = "Tails";
                 CoinAnimations.SetInteger("CoinValue", 1);
@@ -74,7 +74,7 @@ public class ChangeText : MonoBehaviour{
 
     IEnumerator HoldForAnimations(){
         yield return new WaitForSeconds(1);
-        CoinAnimations.SetInteger("CoinValue", 0);
+        CoinAnimations.SetInteger("CoinValue", 2);
     }
 
     #endregion
